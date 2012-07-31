@@ -1,7 +1,6 @@
 require "rubygems"
 require "bundler/setup"
 require "sinatra"
-require "haml"
 require "mongoid"
 Dir["./models/*.rb"].each {|file| require file }
 require "./app"
